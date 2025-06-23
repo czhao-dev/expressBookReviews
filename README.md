@@ -6,7 +6,7 @@ This is a backend server-side project built with **Node.js** and **Express.js**,
 
 This project is similar to the role of a backend developer responsible for building a robust, scalable server to power an online bookstore where users can view and contribute reviews.
 
----
+
 
 ## Features
 
@@ -28,13 +28,13 @@ This project is similar to the role of a backend developer responsible for build
 * `PUT /auth/review/:isbn` – Add or update a book review (per user)
 * `DELETE /auth/review/:isbn` – Delete a book review (user can delete only their own review)
 
----
+
 
 ## Authentication
 
 This project uses **JWT (JSON Web Token)** and **Session-based authentication** to restrict sensitive actions like posting or deleting reviews to logged-in users only.
 
----
+
 
 ## Asynchronous Operations
 
@@ -46,7 +46,7 @@ Asynchronous programming is implemented using:
 
 These are used to simulate external data fetching and to support concurrent user access without blocking operations.
 
----
+
 
 ## Testing
 
@@ -56,7 +56,7 @@ All endpoints are tested using **Postman**. To test the authentication-protected
 2. Store the returned JWT in your session or headers
 3. Perform PUT/DELETE operations on `/auth/review/:isbn`
 
----
+
 
 ## Installation & Setup
 
@@ -74,7 +74,7 @@ All endpoints are tested using **Postman**. To test the authentication-protected
    nodemon index.js
    ```
 
----
+
 
 ## Technologies Used
 
@@ -84,7 +84,7 @@ All endpoints are tested using **Postman**. To test the authentication-protected
 * JWT
 * Express-session
 
----
+
 
 ## Folder Structure
 
@@ -100,19 +100,19 @@ final_project/
 └── README.md               # Project description
 ```
 
----
+
 
 ## Contributions
 
 This project is developed as part of a full-stack development course. Frontend integration is assumed to be built by a separate team member. Backend exposes RESTful APIs for easy integration.
 
----
+
 
 ## Summary
 
 This project gives hands-on experience in building a RESTful API using Node.js and Express.js, including user authentication, asynchronous operations, and CRUD functionality for managing book reviews. It's a great introduction to real-world backend development workflows.
 
----
+
 
 ## License
 

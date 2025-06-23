@@ -1,4 +1,4 @@
-# Online Book Review Application
+# Online Book Review Application with Node.js and Express.js
 
 ## Project Overview
 
